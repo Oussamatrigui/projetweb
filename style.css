@@ -1,1 +1,35 @@
-
+@import url("https://fonts.googleapis.com/css?family=Mulish:700");
+.sidebar desktop {
+    align-items: flex-end;
+    background-color: #fd772c;
+    border: 1px none;
+    display:flex;
+    flex-direction: column;
+    gap:1px;
+    height: 608px;
+    padding:1px 0 ;
+    width:255px;
+}
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+.flex-row {
+    align-items: center;
+    display: flex;
+    gap:40px;
+    height: 51px;
+    min-width: 222px;
+}
+.espace-administrateur {
+    color:#ffffff;
+    font-family: var(--font-family-mulish);
+    font-size: var(--font-size-s);
+    font-weight: 700;
+    letter-spacing:0.4px;
+    line-height: normal;
+    min-height:51px;
+    opacity:0.7;
+    width:150px;
+}
