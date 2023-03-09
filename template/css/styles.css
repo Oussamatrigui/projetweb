@@ -3942,7 +3942,7 @@ textarea.form-control-lg {
 .nav-link {
   display: block;
   padding: 0.5rem 1rem;
-  color: #0dff00;
+  color: #34862f;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -11317,9 +11317,10 @@ image {
 .navbar{
   background-color: #FFFFFF;
 }
-.nav-link dropdown-toggle{
-  background-color: ;
+.oussama button {
+  background-color: #FFA500;
+  border-radius: 30px;
 }
-.oussama button{
-  background-color: #02cd61;
+.fa-solid {
+  background-color: #04414d;
 }
