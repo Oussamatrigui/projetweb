@@ -11323,6 +11323,10 @@ image {
   background-color: #000;
 }
 .oussama button {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+  list-style: none;
   background-color: #FFA500;
   border-radius: 15px;
 }
@@ -11330,14 +11334,14 @@ image {
   background-color: #fff;
 }
 .nav-linkk {
-  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0;
   width: auto;
   height: 40px;
-  display: flex;
-  right:5%;
-  top: calc(65% - 65px/2 - 1.31px);
-  background: #FFA500;
-  mix-blend-mode: normal;
+  right:3%;
+  background-color: #FFA500;
   color:#fff;
-  border-radius: 100px;
+  border-radius: 5px;
 }
