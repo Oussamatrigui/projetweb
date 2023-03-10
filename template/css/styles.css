@@ -11329,3 +11329,14 @@ image {
 .fa-solid {
   background-color: #fff;
 }
+.nav-linkk {
+  position: absolute;
+  width: auto;
+  height: 40px;
+  display: flex;
+  right:8%;
+  top: calc(65% - 65px/2 - 1.31px);
+  background: #FFA500;
+  mix-blend-mode: normal;
+  color:#fff;
+}
