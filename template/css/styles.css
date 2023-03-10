@@ -3940,9 +3940,14 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
   display: block;
   padding: 0.5rem 1rem;
-  color: #34862f;
+  color: #17A200;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
