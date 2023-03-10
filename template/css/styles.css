@@ -11324,7 +11324,7 @@ image {
 }
 .oussama button {
   background-color: #FFA500;
-  border-radius: 70px;
+  border-radius: 15px;
 }
 .fa-solid {
   background-color: #fff;
@@ -11339,4 +11339,5 @@ image {
   background: #FFA500;
   mix-blend-mode: normal;
   color:#fff;
+  border-radius: 100px;
 }
