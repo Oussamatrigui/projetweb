@@ -599,7 +599,7 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 650px;
   height: auto;
 }
 
@@ -7372,7 +7372,7 @@ textarea.form-control-lg {
 }
 
 .mb-2 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: .5rem !important;
 }
 
 .mb-3 {
