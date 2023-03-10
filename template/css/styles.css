@@ -7815,7 +7815,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ff6200;
 }
 
 .bg-secondary {
@@ -11320,12 +11320,12 @@ image {
   width: 20%;
 }
 .navbar{
-  background-color: #FFFFFF;
+  background-color: #000;
 }
 .oussama button {
   background-color: #FFA500;
   border-radius: 30px;
 }
 .fa-solid {
-  background-color: #04414d;
+  background-color: #fff;
 }
