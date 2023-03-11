@@ -11345,3 +11345,7 @@ image {
   color:#fff;
   border-radius: 5px;
 }
+/* Transition Fade
+--------------------------------------------------------------------------------------------------------------- */
+*, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;}
