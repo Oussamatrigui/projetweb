@@ -3940,7 +3940,12 @@ textarea.form-control-lg {
 }
 
 .nav-link {
-  font-family: 'DM Sans';
+  top: 47px;
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  
+
+         
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -11323,10 +11328,6 @@ image {
   background-color: #000;
 }
 .oussama button {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 0;
-  list-style: none;
   background-color: #FFA500;
   border-radius: 15px;
 }
