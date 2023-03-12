@@ -599,15 +599,14 @@ progress {
 }
 
 .img-fluid {
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  
+ 
 }
 
 .img-thumbnail {
   padding: 0.25rem;
-  background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
   max-width: 100%;
   height: auto;
 }
@@ -3090,27 +3089,27 @@ textarea.form-control-lg {
 
 .btn-success {
   color: #fff;
-  background-color: #198754;
-  border-color: #198754;
+  background-color: #ff6200;
+  border-color: #fd7f2c;
 }
 .btn-success:hover {
   color: #fff;
-  background-color: #157347;
-  border-color: #146c43;
+  background-color: #fd7f2c;
+  border-color: #fd7f2c;
 }
 .btn-check:focus + .btn-success, .btn-success:focus {
-  color: #fff;
-  background-color: #157347;
-  border-color: #146c43;
-  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+  color: #000;
+  background-color: #ca780d;
+  border-color: #e69d3f;
+  box-shadow: 0 0 0 0.25rem rgba(245, 172, 14, 0.5);
 }
 .btn-check:checked + .btn-success, .btn-check:active + .btn-success, .btn-success:active, .btn-success.active, .show > .btn-success.dropdown-toggle {
-  color: #fff;
-  background-color: #146c43;
-  border-color: #13653f;
+  color: #000;
+  background-color: #e7d427;
+  border-color: #e7d427;
 }
 .btn-check:checked + .btn-success:focus, .btn-check:active + .btn-success:focus, .btn-success:active:focus, .btn-success.active:focus, .show > .btn-success.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(60, 153, 110, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(240, 236, 24, 0.5);
 }
 .btn-success:disabled, .btn-success.disabled {
   color: #fff;
@@ -3119,28 +3118,28 @@ textarea.form-control-lg {
 }
 
 .btn-info {
-  color: #000;
-  background-color: #0dcaf0;
-  border-color: #0dcaf0;
+  color: #fff;
+  background-color: #ffa12c;
+  border-color: #ffa12c;
 }
 .btn-info:hover {
-  color: #000;
-  background-color: #31d2f2;
-  border-color: #25cff2;
+  color: #fff;
+  background-color: #ff872c;
+  border-color: #ff872c;
 }
 .btn-check:focus + .btn-info, .btn-info:focus {
   color: #000;
-  background-color: #31d2f2;
-  border-color: #25cff2;
-  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+  background-color: #ca780d;
+  border-color: #e69d3f;
+  box-shadow: 0 0 0 0.25rem rgba(245, 172, 14, 0.5);
 }
 .btn-check:checked + .btn-info, .btn-check:active + .btn-info, .btn-info:active, .btn-info.active, .show > .btn-info.dropdown-toggle {
   color: #000;
-  background-color: #3dd5f3;
-  border-color: #25cff2;
+  background-color: #e7d427;
+  border-color: #e7d427;
 }
 .btn-check:checked + .btn-info:focus, .btn-check:active + .btn-info:focus, .btn-info:active:focus, .btn-info.active:focus, .show > .btn-info.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(11, 172, 204, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(240, 236, 24, 0.5);
 }
 .btn-info:disabled, .btn-info.disabled {
   color: #000;
@@ -3940,9 +3939,19 @@ textarea.form-control-lg {
 }
 
 .nav-link {
+  top: 47px;
+  text-align: center;
+  font-family: "Gill Sans", sans-serif;
+  
+
+         
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 18px;
   display: block;
   padding: 0.5rem 1rem;
-  color: #34862f;
+  color: #17A200;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3952,7 +3961,7 @@ textarea.form-control-lg {
   }
 }
 .nav-link:hover, .nav-link:focus {
-  color: #0a58ca;
+  color: hsl(138, 91%, 42%);
 }
 .nav-link.disabled {
   color: #6c757d;
@@ -4089,7 +4098,7 @@ textarea.form-control-lg {
   padding: 0.25rem 0.75rem;
   font-size: 1.25rem;
   line-height: 1;
-  background-color: transparent;
+  background-color: green;
   border: 1px solid transparent;
   border-radius: 0.25rem;
   transition: box-shadow 0.15s ease-in-out;
@@ -4495,8 +4504,8 @@ textarea.form-control-lg {
   color: #fff;
 }
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.55);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: rgba(67, 27, 179, 0.55);
+  border-color: rgba(67, 27, 179, 0.55);
 }
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -7367,7 +7376,7 @@ textarea.form-control-lg {
 }
 
 .mb-2 {
-  margin-bottom: 0.5rem !important;
+  margin-bottom: .5rem !important;
 }
 
 .mb-3 {
@@ -7810,7 +7819,7 @@ textarea.form-control-lg {
 
 .bg-primary {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+  background-color: #ff6200;
 }
 
 .bg-secondary {
@@ -11315,12 +11324,13 @@ image {
   width: 20%;
 }
 .navbar{
-  background-color: #FFFFFF;
+  background-color: #000;
 }
 .oussama button {
   background-color: #FFA500;
-  border-radius: 30px;
+  border-radius: 15px;
 }
+<<<<<<< HEAD
 .fa-bag-shopping{
   color: green;
 }
@@ -11328,3 +11338,24 @@ image {
   height: 40%;
   width: 40%;
 }
+=======
+.fa-solid {
+  background-color: #fff;
+}
+.nav-linkk {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-bottom: 0;
+  width: auto;
+  height: 40px;
+  right:3%;
+  background-color: #FFA500;
+  color:#fff;
+  border-radius: 5px;
+}
+/* Transition Fade
+--------------------------------------------------------------------------------------------------------------- */
+*, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;}
+>>>>>>> 43c845f99983fbb96e963dfee68c8c769a17d40e
