@@ -11491,3 +11491,36 @@ body {
 =======
 >>>>>>> 43c845f99983fbb96e963dfee68c8c769a17d40e
 >>>>>>> 9982b639ebe8b4533419f451835e46514c41807f
+.con{
+   width:90%;
+   overflow:hidden;
+   background: skyblue;
+   margin: 20px auto;
+   padding: 20px;
+}
+.con ul{
+  padding: 0px;
+  margin: 0px;
+}
+.con ul li{
+  list-style: none;
+  float: left;
+  width: 20%;
+  height: 300px;
+  background: white;
+  margin: 40px 20px 0px 55px;
+  box-sizing: border-box;
+  border: 2px solid green;
+}
+.con ul li .titre{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: green;
+  text-align: center;
+}
+.bl{
+  width: 100%;
+  height: 299px;
+}
+
