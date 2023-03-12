@@ -11321,6 +11321,10 @@ image {
   background-color: #FFA500;
   border-radius: 30px;
 }
-.fa-solid {
-  background-color: #04414d;
+.fa-bag-shopping{
+  color: green;
+}
+.col--5{
+  height: 40%;
+  width: 40%;
 }
