@@ -11493,7 +11493,6 @@ body {
 >>>>>>> 9982b639ebe8b4533419f451835e46514c41807f
 .con{
    width:90%;
-   overflow:hidden;
    background: skyblue;
    margin: 20px auto;
    padding: 20px;
@@ -11528,4 +11527,10 @@ body {
   height: 60px;
   margin-left: 120px;
   margin-top: 10px;
+}
+.lg{
+  width:20%;
+  height: 60px;
+  margin-inline-end: 50px;
+  
 }
