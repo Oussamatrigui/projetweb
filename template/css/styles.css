@@ -11487,27 +11487,21 @@ image {
   box-sizing: border-box;
   border: 2px solid green;
 }
-.col-md li img .cn{
-  width: 100%;
-  height: 50px;
-  line-height: 50px;
-  background: green;
-  text-align: center;
-}
+
 .col-md li img .lg{
   width: 100%;
-  height: 50px;
+  height: 200px;
   line-height: 50px;
   background: green;
   text-align: center;
 }
-.col-md li .titre{
+.titre{
   font-size: 20px;
   width: 100%;
   height: 50px;
   line-height: 50px;
   background: green;
-  text-align: center;
+  
 }
 .bl{
   width: 100%;
