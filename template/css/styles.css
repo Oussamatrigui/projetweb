@@ -11507,11 +11507,11 @@ image {
 .lg{
   width:20%;
   height: 60px;
-<<<<<<< HEAD
+
   margin-inline-end: 50px;
   left: 50px;
 	top:0;
-=======
+
   display: flex;
->>>>>>> 044c1af8edaa16dbb441b00fd810b3d358d028e0
+
 }
