@@ -11445,13 +11445,13 @@ image {
     border:3px solid #f1f1f1;
 }
 .search-area span.closs-btn{
-    border:.5px solid #f1f1f1;
+    border:3px solid #f1f1f1;
     position: absolute;
     right: 5px;
     top: 5px;
     display: inline-block;
-    height: 47px;
-    width: 47px;
+    height: 50px;
+    width:  50px;
     border-radius:50%;
     text-transform: uppercase;;
     background: #fff;
