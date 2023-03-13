@@ -11449,7 +11449,8 @@ image {
     top: 5px;
     display: inline-block;
     height: 45px;
-    width: 80px;
+    width: 45px;
+    border-radius:50%;
     text-transform: uppercase;;
     background: #fff;
     line-height: 45px;
