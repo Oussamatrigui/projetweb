@@ -11477,7 +11477,7 @@ image {
   padding: 0px;
   margin: 0px;
 }
-.con ul li{
+.col-md .con ul li img .bl{
   list-style: none;
   float: left;
   width: 20%;
@@ -11487,7 +11487,22 @@ image {
   box-sizing: border-box;
   border: 2px solid green;
 }
-.con ul li .titre{
+.col-md li img .cn{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: green;
+  text-align: center;
+}
+.col-md li img .lg{
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  background: green;
+  text-align: center;
+}
+.col-md li .titre{
+  font-size: 20px;
   width: 100%;
   height: 50px;
   line-height: 50px;
@@ -11498,20 +11513,21 @@ image {
   width: 100%;
   height: 299px;
 }
+
 .cn{
   width:20%;
   height: 60px;
-  margin-left: 120px;
-  margin-top: 10px;
+  position:relative;
+}
+.con img .cn {
+  align-items: center;
 }
 .lg{
   width:20%;
   height: 60px;
-
   margin-inline-end: 50px;
   left: 50px;
 	top:0;
-
   display: flex;
 
 }
