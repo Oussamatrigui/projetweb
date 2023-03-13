@@ -11469,7 +11469,7 @@ image {
 
 .con{
    width:90%;
-   background: skyblue;
+   background: gray;
    margin: 20px auto;
    padding: 20px;
 }
@@ -11507,7 +11507,5 @@ image {
 .lg{
   width:20%;
   height: 60px;
-  margin-inline-end: 50px;
-  left: 50px;;
-	top:0;
+  display: flex;
 }
