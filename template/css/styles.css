@@ -11404,6 +11404,7 @@ image {
 	transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
 }
 .search-area{
+    border:3px dotted #f1f1f1;
     position: fixed;
     height: 50vh;
     width: 70%;
@@ -11444,12 +11445,13 @@ image {
     border:3px solid #f1f1f1;
 }
 .search-area span.closs-btn{
-    position: absolute;;
+    border:.5px solid #f1f1f1;
+    position: absolute;
     right: 5px;
     top: 5px;
     display: inline-block;
-    height: 45px;
-    width: 45px;
+    height: 47px;
+    width: 47px;
     border-radius:50%;
     text-transform: uppercase;;
     background: #fff;
