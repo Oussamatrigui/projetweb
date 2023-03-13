@@ -11501,6 +11501,7 @@ image {
   height: 50px;
   line-height: 50px;
   background: green;
+  color:var(--bs-white);
   
 }
 .bl{
