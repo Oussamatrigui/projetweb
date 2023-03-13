@@ -11330,7 +11330,7 @@ image {
   background-color: #FFA500;
   border-radius: 15px;
 }
-
+<<<<<<< HEAD
 .fa-bag-shopping{
   color: green;
 }
@@ -11338,7 +11338,7 @@ image {
   height: 40%;
   width: 40%;
 }
-
+=======
 .fa-solid {
   background-color: #fff;
 }
@@ -11469,7 +11469,7 @@ image {
 
 .con{
    width:90%;
-   background: gray;
+   background: skyblue;
    margin: 20px auto;
    padding: 20px;
 }
@@ -11501,11 +11501,24 @@ image {
 .cn{
   width:20%;
   height: 60px;
-  margin-left: 120px;
+  margin-left: 135px;
   margin-top: 10px;
 }
 .lg{
   width:20%;
   height: 60px;
-  display: flex;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+.lh{
+  margin-left: 70px;
+  margin-top: 29px;
+}
+.logo-container {
+  display: flex; /* permet de placer les deux logos côte à côte */
+  justify-content: space-between; /* permet d'espacer les logos de manière égale */
+  align-items: center; /* permet de centrer verticalement les logos */
+}
+ds{
+  text-align: center;
 }
