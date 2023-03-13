@@ -15,7 +15,7 @@
   z-index: 999999;
 }
 .loader {
-    height: 200px;
+    height: 50%;
     left: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -42,11 +42,11 @@
     border-radius: 50% 50% 50% 50%;
     position: absolute;
     border-left: 5px solid #19ce13;
-    border-right: 5px solid #92c51b;
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    -webkit-animation: animate3 2s infinite;
-    animation: animate3 2s infinite;
+    border-right: 5px solid #19ce13;
+    border-top: 20px solid transparent;
+    border-bottom: 2px solid transparent;
+    -webkit-animation: animate3 1s infinite;
+    animation: animate3 1s infinite;
 }
 
 .preloder-wrap .child1
