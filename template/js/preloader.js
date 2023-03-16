@@ -1,10 +1,4 @@
-(function ($) {
- "use strict";
-
-	/*----------------------------
-	 wow js active
-	------------------------------ */
-	 new WOW().init();
+(function ($) {	 
 	/*------------- preloader js --------------*/
 	$(window).on('load',function() { // makes sure the whole site is loaded
 		$('.preloder-wrap').fadeOut(); // will first fade out the loading animation
