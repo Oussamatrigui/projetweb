@@ -633,8 +633,7 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  
   margin-right: auto;
   margin-left: auto;
 }
@@ -4043,9 +4042,9 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: right;
   justify-content: space-between;
-  padding-top: 0.5rem;
+  padding-top: 0rem;
   padding-bottom: 0.5rem;
 }
 .navbar > .container,
@@ -4119,12 +4118,12 @@ textarea.form-control-lg {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
+  width: 2em;
+  height: 2em;
   vertical-align: middle;
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+  background-position: left;
+  background-size: 50%;
 }
 
 .navbar-nav-scroll {
@@ -11322,9 +11321,6 @@ html {
 }
 image {
   width: 20%;
-}
-.navbar{
-  background-color: #000;
 }
 .oussama button {
   background-color: #FFA500;
